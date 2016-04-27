@@ -1,0 +1,60 @@
+<template id="transportation-means-co2-scenario">
+    <h1>Verkehrsmittel - CO2 Example</h1>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-xs-4 center-block">
+            <div class="row">
+
+                <div class="col-xs-6">
+                </div>
+                <div class="col-xs-6" >
+                    <transportation-means-draggable member-id-ref="car" class="center-block"></transportation-means-draggable>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-xs-6 col-xs-offset-3">
+            <transportation-means-draggable member-id-ref="cycle" class="center-block"></transportation-means-draggable>
+                </div>
+                <div class="col-xs-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                </div>
+                <div class="col-xs-6">
+            <transportation-means-draggable member-id-ref="plain" class="center-block"></transportation-means-draggable>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-xs-4 center-block">
+            <co2-dropzone member-id-ref="co2Gauge" class="center-block"></co2-dropzone>
+        </div>
+        <div class="col-xs-4 center-block">
+            <div class="row">
+                <div class="col-xs-6">
+            <transportation-means-draggable member-id-ref="bus" class="center-block"></transportation-means-draggable>
+                </div>
+                <div class="col-xs-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3">
+            <transportation-means-draggable member-id-ref="ship" class="center-block"></transportation-means-draggable>
+                </div>
+                <div class="col-xs-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+            <transportation-means-draggable member-id-ref="train" class="center-block"></transportation-means-draggable>
+                </div>
+                <div class="col-xs-6">
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
