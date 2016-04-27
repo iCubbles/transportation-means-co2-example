@@ -1,4 +1,5 @@
 ## transportation-means-co2-example
 
 <hr/>
-A little example for cubbles. 
+A little Demo for using cubbles with drag and drop.
+([Demo](https://www.cubbles.world/sandbox/transportation-co2@0.2.1/transportation-means-co2-scenario/demo/index.html)).
