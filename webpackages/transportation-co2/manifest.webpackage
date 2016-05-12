@@ -1,7 +1,7 @@
 {
   "name": "transportation-co2",
   "groupId": "",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "modelVersion": "8.3.0",
   "docType": "webpackage",
   "author": {
@@ -76,7 +76,7 @@
             ],
             "dependencies": [
               "this/transportation-means/main",
-              "com.incowia.examples.car-registration-statistics@0.3.0-SNAPSHOT/draggable-maker/main"
+              "drag-and-drop-helper@0.1.0/draggable-maker/main"
             ]
           }
         ],
@@ -105,7 +105,7 @@
           },
           {
             "memberId": "draggableMaker",
-            "componentId": "com.incowia.examples.car-registration-statistics@0.3.0-SNAPSHOT/draggable-maker"
+            "componentId": "drag-and-drop-helper@0.1.0/draggable-maker"
           }
         ],
         "connections": [
@@ -133,7 +133,7 @@
         "inits": [
           {
             "memberIdRef": "draggableMaker",
-            "slot": "draggableElement",
+            "slot": "draggableElementSelector",
             "value": "transportation-means .container"
           },
           {
@@ -159,7 +159,7 @@
               "css/co2-dropzone.css"
             ],
             "dependencies": [
-              "com.incowia.examples.car-registration-statistics@0.3.0-SNAPSHOT/parent-dropzone/main",
+              "drag-and-drop-helper@0.1.0/parent-dropzone/main",
               "com.incowia.demo.travel-planner@0.1.0-SNAPSHOT/co2-footprint/main"
             ]
           }
@@ -177,7 +177,7 @@
         "members": [
           {
             "memberId": "parentDropzone",
-            "componentId": "com.incowia.examples.car-registration-statistics@0.3.0-SNAPSHOT/parent-dropzone"
+            "componentId":  "drag-and-drop-helper@0.1.0/parent-dropzone"
           },
           {
             "memberId": "co2Gauge",
